@@ -1,0 +1,20 @@
+#category{
+    background-color:#937B63;
+    border: none;
+    font-size: 20;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    outline: none;
+    margin-top: 120px;
+}
+#category option{
+    text-align: center;
+}
+.Dropdown{
+    width: 60%;
+    max-width: 550px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}

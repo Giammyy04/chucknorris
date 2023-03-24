@@ -1,0 +1,39 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+body{
+  background-color: #D5DDBC;
+}
+#container{
+  padding: 0px 40px 0px 40px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+}
+#paragraph{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+}
+#chuck_img{
+  display: none;
+}
+@media screen and (min-width: 394px) {
+  #container{
+    padding: 0px;
+  }
+  #paragraph{
+    max-width: 1000px;
+  }
+  #chuck_img{
+    display: block;
+    margin-top: 30px;
+  }
+}
